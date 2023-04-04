@@ -24,7 +24,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: relative; /*otazka 6*/
   top: 0;
 }
 
