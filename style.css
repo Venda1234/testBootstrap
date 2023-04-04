@@ -30,7 +30,7 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right; /*otazka 7*/
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +40,7 @@ body {
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left; /*otazka 7*/
 }
 
 /* Change color on hover */
@@ -63,7 +63,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 25%; /*otazka 8*/
   background-color: darkblue; /*otazka 4*/
   padding: 20px;
   color: lightgray; /*otazka 4*/
@@ -71,7 +71,7 @@ body {
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 75%; /*otazka 8*/
   background-color: white;
   padding: 20px;
 }
