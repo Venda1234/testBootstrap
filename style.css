@@ -11,7 +11,7 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: left; /*otazka 2*/
   background-image: url("./images/landscape.jpg");
 }
 
@@ -64,8 +64,9 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: darkblue; /*otazka 4*/
   padding: 20px;
+  color: lightgray; /*otazka 4*/
 }
 
 /* Main column */
@@ -85,7 +86,7 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color: green; /*otáka 3*/
 }
 
 /* Basic styles for the post */
